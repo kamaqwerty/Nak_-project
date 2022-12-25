@@ -1,7 +1,9 @@
 body {
-  background: #e2f3fb;
+  /* background: #e2f3fb; */
+  background: #F6FAFD;
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
 }
 h1,
 h2,
@@ -20,7 +22,7 @@ ul {
 
 .header_wallpaper{
   width: 100%;
-  height: 220px;
+  height: 153px;
   background: url("../assets/footer_bot_back.png") center/cover;
 }
 
@@ -36,12 +38,12 @@ ul {
   align-items: center;
   justify-content: space-between  ;
   margin-top: 16px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .container .navbar img{
-  width: 100px;
-  height: 50px;
+  width: 77px;
+  height: 36px;
 }
 
 .container .navbar ul{
@@ -52,13 +54,20 @@ ul {
 }
 
 .container .navbar ul li{
-  color: #1d5f8e;
+  color: #0077C0;
   cursor: pointer;
-  font-size: 20px;  
+  font-weight:600;
+  font-size: 16px;
+  line-height: 19px; 
+  transition: 0.5s;
+}
+
+.container .navbar ul li:hover{
+  color: #195987;
 }
 
 .container .navbar .vector{
-  width: 31%; 
+  width: 23%; 
 }
 
 .container .navbar .vector ul li {
@@ -79,6 +88,80 @@ ul {
 .container .navbar .vector ul li span{
   width: 200px;
 }
+
+/* MAIN */
+
+
+.main{
+  padding-top: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  width: 500px;
+  height: 220px;
+}
+
+.content h1{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #1D5F8E;
+}
+
+.content h2{
+  padding-top: 70px;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 70px;
+  color: #1D2C43;
+}
+
+.Btns{
+  padding-top: 70px;
+  display: flex;
+  gap: 20px;
+}
+
+.contactBtn{
+  font-size: 22px;
+  padding: 22px 60px;
+  border-radius: 10px;
+  border: #018ABE solid;
+  background: #1D5F8E;
+  color: #F6FAFD;
+  cursor: pointer;
+}
+
+.moreBtn{
+  font-size: 22px;
+  cursor: pointer;
+  color: #1D2C43;;
+  padding: 22px 60px;
+  border-radius: 10px;
+  border: #018ABE solid;
+  background-color: white;
+}
+
+.baner{
+  background: url("/assets/Ellipse\ 1.png") center no-repeat;
+  width: 420px;
+  height: 420px;
+  padding-top: 80px;
+  position: relative;
+}
+
+.loGo{
+  width: 77px;
+  height: 36px;
+  position: absolute;
+  top: 220px;
+  left: 56px;
+}
+
+
+
 
 /* FOOTER */
 
