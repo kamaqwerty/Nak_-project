@@ -1,5 +1,4 @@
 body {
-  /* background: #e2f3fb; */
   background: #F6FAFD;
   margin: 0;
   padding: 0;
@@ -12,6 +11,10 @@ h4,
 h5,
 h6 {
   margin: 0;
+  padding: 0;
+}
+
+p{
   padding: 0;
 }
 
@@ -99,7 +102,7 @@ ul {
 }
 
 .content{
-  width: 500px;
+  width: 610px;
   height: 220px;
 }
 
@@ -144,7 +147,7 @@ ul {
   background-color: white;
 }
 
-.baner{
+.banner{
   background: url("/assets/Ellipse\ 1.png") center no-repeat;
   width: 420px;
   height: 420px;
@@ -160,13 +163,125 @@ ul {
   left: 56px;
 }
 
+/*  */
+
+.content p{
+  font-weight:lighter;
+  font-size: 22px;
+  line-height: 37px;
+  color: #1D2C43;
+}
+
+.banner_waterInKg{
+  width: 420px;
+  height: 420px;
+  padding-top: 24px;
+}
+
+.banner_waterInKg img{
+  padding-bottom: 76px;
+  width: 466px;
+  height: 270px;
+}
+
+/*  */
+
+.about_us{
+  padding-top: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_us_img{
+  display: flex;
+  width: 340px;
+  height: 375px;
+  padding-top: 190px;
+}
+
+.about_us_img .small{
+  width: 95px;
+  height: 295px;
+  padding-top: 73px;
+}
+
+.about_us_img .better{
+  width: 120px;
+  height: 375px;
+  padding: 0 30px;
+}
+
+.about_us_text{
+  width: 722px;
+  height: 302px;
+}
+
+.about_us_text h4{
+  padding-bottom: 55px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #1D5F8E;
+}
+
+.about_us_text p{
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.8;
+  color: #1D2C43;
+}
+
+/*  */
+
+.advantages_main{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
 
 
+.advantages{
+  margin-top: 40px;
+  background: url("/assets/unsplash_lpjb_UMOyx8.png");
+  width: 100%;
+  height: 656px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advantages_card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #E2F3FB;
+  padding: 5px 12px;
+  border-radius: 20px;
+  width: 370px;
+  height: 282px;
+  
+}
+
+.advantages_card h4{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 37px;
+  color: #1D2C43;
+  padding-right: 86px;
+}
+
+.advantages_card p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
 
 /* FOOTER */
 
 footer{
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .our_products {
